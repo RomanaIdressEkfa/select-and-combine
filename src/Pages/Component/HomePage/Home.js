@@ -9,7 +9,6 @@ import Products from './Products';
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Hero></Hero>
             <Products></Products>
             <Drawer></Drawer>

@@ -1,13 +1,13 @@
 [
     {
-        "price": "$3.00",
+        "price": "$1.50",
       "image": "https://i.ibb.co/2ZTcpkS/blueberries.jpg",
-      "name": "Blueberries"
+      "name": "Lime"
     },
     {
         "price": "$3.00",
       "image": "https://i.ibb.co/2Y0bnpX/clementines.jpg",
-      "name": "Blueberries"
+      "name": "French Green Beans"
     },
     {
         "price": "$3.00",
@@ -17,7 +17,7 @@
     {
         "price": "$3.00",
       "image": "https://i.ibb.co/xfXdXWf/chicken-brest-ribcxo.jpg",
-      "name": "Blueberries"
+      "name": "Pepper"
     },
     {
         "price": "$3.00",
@@ -86,5 +86,7 @@
       "image": "https://i.ibb.co/pPjY2bM/pears.jpg",
       "name": "Blueberries"
     }
+    
+    
     
 ]

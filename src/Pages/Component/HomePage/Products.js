@@ -18,7 +18,7 @@ const Products = () => {
             .then(data => setProducts(data));
     }, [products]);
     return (
-        <div>
+        <div className="">
             <br />
             <Swiper
                 slidesPerView={3}

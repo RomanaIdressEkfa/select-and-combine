@@ -66,8 +66,24 @@ body {
   height: 100%;
   object-fit: cover;
 }
+/* 
+.container {
+  height: 200px;
+  width: 350px;
+  background-color: #3c3c3c;
+  overflow-y: auto;
+  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+.drawer-content.drawer-content::-webkit-scrollbar {
+  display: none;
+}
 
-
+.drawer-content {
+-ms-overflow-style: none;  
+scrollbar-width: none;  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
