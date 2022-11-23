@@ -76,6 +76,15 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 } */
+
+.login-container{
+border-radius: 38px;
+background: linear-gradient(225deg, #cacaca, #f0f0f0);
+box-shadow:  -39px 39px 78px #a1a1a1,
+             39px -39px 78px #ffffff;
+}
+
+
 .drawer-content.drawer-content::-webkit-scrollbar {
   display: none;
 }

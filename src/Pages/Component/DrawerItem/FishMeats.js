@@ -1,5 +1,5 @@
 import React from 'react';
-import Grocery from '../Dashboard/Grocery';
+
 import Offers from '../HomePage/Offers';
 
 const FishMeats = () => {

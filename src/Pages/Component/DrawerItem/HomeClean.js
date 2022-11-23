@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Faq = () => {
+const HomeClean = () => {
     return (
         <div>
-            mkdewk kew fe e j
+
         </div>
     );
 };
 
-export default Faq;
+export default HomeClean;

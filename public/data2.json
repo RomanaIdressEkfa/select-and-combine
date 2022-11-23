@@ -2,7 +2,8 @@
     {
         "price": "$1.50",
       "image": "https://i.ibb.co/2ZTcpkS/blueberries.jpg",
-      "name": "Lime"
+      "name": "Lime",
+      "category":"Fruits And Vegetables"
     },
     {
         "price": "$3.00",
@@ -90,3 +91,6 @@
     
     
 ]
+
+
+

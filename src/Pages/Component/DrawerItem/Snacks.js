@@ -1,14 +1,12 @@
 import React from 'react';
 import Datas from '../HomePage/Datas';
-import Products from '../HomePage/Products';
 
-const FruitsVegetables = () => {
+const Snacks = () => {
     return (
         <div>
             <Datas></Datas>
-
         </div>
     );
 };
 
-export default FruitsVegetables;
+export default Snacks;

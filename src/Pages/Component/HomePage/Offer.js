@@ -18,7 +18,7 @@ const Offer = ({ offer, handleDelete }) => {
                     <h2 className="card-title">{number}</h2>
                     <p>{text}</p>
                     <div className="card-actions">
-                        <button className="btn btn-outline btn-accent w-52">{_id}</button>
+                        <button className="btn btn-outline btn-accent w-52">Add to Cart</button>
                     </div>
                 </div>
             </div>
