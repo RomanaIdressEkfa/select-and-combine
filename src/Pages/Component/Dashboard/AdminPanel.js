@@ -6,8 +6,6 @@ const AdminPanel = () => {
             <div class="overflow-x-auto w-full">
                 <table class="table w-full">
 
-
-
                     <thead>
                         <tr>
                             <th>

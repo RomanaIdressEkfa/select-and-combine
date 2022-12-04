@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 
-const Offer = ({ offer, handleDelete }) => {
-    // useEffect(() => {
-    //     console.log(handleDelete);
-    // }, [])
+const Offer = ({ offer, handleDelete, handleAddToData }) => {
+
 
     const { _id, link, number, text } = offer;
-    // const { offer } = props
+
     return (
 
         <div onClick={() => handleDelete(offer._id)} className='gap-10'>
@@ -18,7 +16,7 @@ const Offer = ({ offer, handleDelete }) => {
                     <h2 className="card-title">{number}</h2>
                     <p>{text}</p>
                     <div className="card-actions">
-                        <button className="btn btn-outline btn-accent w-52">Add to Cart</button>
+                        <button onClick={handleAddToData} className="btn btn-outline btn-accent w-52">Add to Cart</button>
                     </div>
                 </div>
             </div>
